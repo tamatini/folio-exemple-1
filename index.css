@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+
+html {
+  font-family: 'Michroma', sans-serif;
+  background-color: black;
+  color: black;
+}
+
+span {
+  font-family: 'Cabin', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+html body {
+  margin: auto;
+  background-color: black;
+  width: 1440px;
+  position: relative;
+}
+
+html body #main {
+  background-color: white;
+}
+
+html body #author {
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+html body #author span {
+  font-family: 'Michroma', sans-serif;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+html body #author img {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+html body #author #waves {
+  position: absolute;
+  top: 40px;
+  left: -60px;
+}
+
+nav {
+  width: 100%;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 112px;
+}
+
+nav div a {
+  display: flex;
+  
+}
+
+nav div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 12.42px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav div div #logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav div img {
+  height: 48px;
+  width: 28.58;
+  margin: 0 0 0 102px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+nav ul #about {
+  font-weight: bold;
+}
+
+nav ul #donate {
+  background-color: black;
+  color: white;
+  padding: 12px 60px;
+  margin-right: 100px;
+  margin-left: 34px;
+}
+
+main {
+  display: flex;
+  height: 924px;
+}
+
+main #womens {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid black;
+}
+
+main #womens div #gender {
+  margin-top: -170px;
+  width: 129.26px;
+  height: 237.05px;
+} 
+
+main #womens ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+main #womens ul #peep1 {
+  z-index: 3;
+  margin-top: 203.78px;
+}
+main #womens ul #peep2 {
+  z-index: 2;
+  margin-top: 132.6px ;
+  margin-left: -100px;
+}
+main #womens ul #peep3 {
+  z-index: 1;
+  margin-top: 68.23px;
+  margin-left: -90px;
+}
+
+main #womens ul #peep4 {
+  z-index: 0;
+  margin-top: 64.54px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+main #womens ul #peep5 {
+  z-index: 1;
+  margin-top: 68.23px;
+  margin-right: -90px;
+}
+
+main #womens ul #peep6 {
+  z-index: 2;
+  margin-top: 132.6px ;
+  margin-right: -100px;
+}
+
+main #womens ul #peep7 {
+  z-index: 3;
+  margin-top: 203.78px;
+  margin-right: 70px;
+}
+
+main #womens #title {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+main #womens #title span {
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  font-size: 140px;
+  line-height: 1;
+}
+
+main #womens #title #pay {
+  text-align: center;
+  letter-spacing: 0.145em;
+  font-size: 200px;
+  font-weight: 800;
+  -webkit-text-stroke-width: 5px;
+  margin-bottom: 99px;
+}
+
+#foot {
+  position: relative;
+  width: 1440px;
+  height: 60px;
+  color: white;
+  border-top: 2px solid black;
+  background: linear-gradient(to right, white 50%, black 50%);
+}
+
+#foot img {
+  position: absolute;
+  bottom: 14px;
+  left: 78px;
+}
+
+/*********************/
+
+#stats {
+  position: relative;
+  font-family: 'Kodchasan', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 720px;
+}
+
+#stats #stat-text {
+  margin-top: 46px;
+  width: 546px;
+}
+
+#stats h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 78.69px;
+}
+
+#stats h2 span {
+  font-weight: 600;
+  line-height: 75.12px;
+}
+
+#stats #stat-text p {
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#stats #stat-text p span {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#stats #table {
+  margin-top: 30px;
+  margin-bottom: 8px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#stats #table #pink {
+  height: 302px;
+  width: 84px;
+  background: linear-gradient(to top, #FC78F7 95%, black 5%);
+}
+
+#stats #table .gap {
+  position: absolute;
+  bottom: 0;
+  height: 286px;
+  right: 0;
+}
+
+#stats #table #gap {
+  background: black;
+  color: white;
+  width: 543px;
+}
+
+#stats #table #gap-bg {
+  background: white;
+  width: 80px;
+  right: -80px;
+}
+
+#gap #number {
+  margin-left: 79px;
+  font-size: 144px;
+}
+
+#gap #text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#gap #text #gap-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 0 10px 50px 82px;
+}
+
+#gap #number #percent {
+  font-size: 64px;
+}
+
+#gap #text #detail {
+  font-family: 'Kodchasan', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#stats #source {
+  width: 543px;
+  text-align: right;
+}
+
+#stats #source .source {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#stats #triangles {
+  position: absolute;
+  top: 25.92px;
+  right: 20.47px;
+}
+
+#form {
+  width: 546px;
+}
+
+#form div {
+  display: flex;
+}
+
+#form div {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form div ul {
+  padding-inline-start: 5px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#form div #joined {
+  text-align: right;
+}
+
+#form div ul li {
+  margin: 0 5px;
+}
+
+.wrapper {
+  margin-left: 72px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  height: 46px;
+}
+
+form button {
+  font-weight: bold;
+  background-color: #FFF500;
+  border: none;
+  padding: 16px;
+  font-size: 20px;
+  margin-top: 24px;
+}
+
